@@ -18,7 +18,7 @@ class Karma:
     def __init__(self, client):
         self.client = client
 
-    print("Loading Karma...")
+    print("One Minute, Loading Karma...")
 
     @client.event
     async def on_ready(self):
